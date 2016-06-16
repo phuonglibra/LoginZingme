@@ -1,0 +1,63 @@
+<acceptance-test-run title="Login with invalid username and password" name="Login with invalid username and password" description="" steps="5" successful="5" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12462" timestamp="2016-06-12T22:10:14.780+07:00" session-id="ead4dc11-6c72-4925-a6df-85bcff570a36">
+  <user-story id="login-zingme-page" name="Login Zingme page" path="consult_dictionary/loginZingme.feature"/>
+  <tags>
+    <tag name="Consult dictionary" type="capability"/>
+    <tag name="Consult dictionary/Login zingme page" type="feature"/>
+    <tag name="Login Zingme page" type="feature"/>
+    <tag name="tag" type="tag"/>
+    <tag name="tag3" type="tag"/>
+  </tags>
+  <test-group name="Given Open URL" result="SUCCESS">
+    <screenshots>
+      <screenshot image="51c5fca05e0870be6dca9258a35940c8.png"/>
+      <screenshot image="41ab3520cc9d4b1f28ea0e8925ab9e4e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2048">
+      <screenshots>
+        <screenshot image="eaa6d4a592a8968c96a44235603b4265.png"/>
+        <screenshot image="41ab3520cc9d4b1f28ea0e8925ab9e4e.png"/>
+      </screenshots>
+      <description>Open zingme</description>
+    </test-step>
+  </test-group>
+  <test-group name="When user input username is &quot;abc123&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e3c3d5901425314b41e18801b00f8547.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1297">
+      <screenshots>
+        <screenshot image="c802de5e9a40b31c101e058a9491b927.png"/>
+      </screenshots>
+      <description>Input username: abc123</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="1188">
+    <screenshots>
+      <screenshot image="a5da63123be427a9657e5fa4a0845cf5.png"/>
+      <screenshot image="a94d231775c2f6ce0b1c22aca0f35703.png"/>
+    </screenshots>
+    <description>And user input password is &quot;123&quot;</description>
+  </test-step>
+  <test-group name="And user click Login button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b277e4d075cba601cbc85614632c04e3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1779">
+      <screenshots>
+        <screenshot image="e190f11d438951c966b9d901b3fa1b7b.png"/>
+      </screenshots>
+      <description>Click login</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then user check alert message is &quot;Tên đăng nhập / Mật khẩu bạn đã nhập không chính xác! Vui lòng thử lại (đảm bảo đã tắt caps lock).&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b277e4d075cba601cbc85614632c04e3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1309">
+      <screenshots>
+        <screenshot image="b277e4d075cba601cbc85614632c04e3.png"/>
+      </screenshots>
+      <description>Get error msg</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

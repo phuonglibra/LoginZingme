@@ -1,0 +1,55 @@
+<acceptance-test-run title="Login with invalid username" name="Login with invalid username" description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16404" timestamp="2016-06-12T22:09:45.166+07:00" session-id="ead4dc11-6c72-4925-a6df-85bcff570a36">
+  <user-story id="login-zingme-page" name="Login Zingme page" path="consult_dictionary/loginZingme.feature"/>
+  <tags>
+    <tag name="Consult dictionary" type="capability"/>
+    <tag name="Consult dictionary/Login zingme page" type="feature"/>
+    <tag name="Login Zingme page" type="feature"/>
+    <tag name="tag" type="tag"/>
+    <tag name="tag1" type="tag"/>
+  </tags>
+  <test-group name="Given Open URL" result="SUCCESS">
+    <screenshots>
+      <screenshot image="41ab3520cc9d4b1f28ea0e8925ab9e4e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8250">
+      <screenshots>
+        <screenshot image="41ab3520cc9d4b1f28ea0e8925ab9e4e.png"/>
+      </screenshots>
+      <description>Open zingme</description>
+    </test-step>
+  </test-group>
+  <test-group name="When user input username is &quot;abc&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="afab00c0e56e763db08410039720f71e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1300">
+      <screenshots>
+        <screenshot image="dd01c73409c2ac5e1317b98e1dbc46ea.png"/>
+        <screenshot image="afab00c0e56e763db08410039720f71e.png"/>
+      </screenshots>
+      <description>Input username: abc</description>
+    </test-step>
+  </test-group>
+  <test-group name="And user click Login button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6558732ed88891b52a2c4590a611597a.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1398">
+      <screenshots>
+        <screenshot image="8c4c7b5ef5edf9785a56d4d39f799feb.png"/>
+      </screenshots>
+      <description>Click login</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then user check alert message is &quot;Vui lòng nhập mật khẩu.&quot;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="783f2daee4c084ed1e17693035dbc69d.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1048">
+      <screenshots>
+        <screenshot image="783f2daee4c084ed1e17693035dbc69d.png"/>
+      </screenshots>
+      <description>Get error msg</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

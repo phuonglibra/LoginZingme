@@ -1,0 +1,4 @@
+org\serenity\test\steps\serenity\LoginUser.class
+org\serenity\test\steps\LoginZingSteps.class
+org\serenity\test\LoginZingTestSuite.class
+org\serenity\test\pages\LoginPage.class
